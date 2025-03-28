@@ -20,13 +20,18 @@ A simple **Dockerized** certificate issuance application built with **React**, *
 ### 1️⃣ Clone the Repository  
 ```sh
 git clone https://github.com/yourusername/certificate-app.git
+```
+
 2️⃣ Start the App with Docker
-sh
 Copy code
+```sh
 docker-compose up --build
+```
 3️⃣ Open in Browser
 Copy code
+```sh
 http://localhost:5173
+```
 🐳 Docker Details
 This project uses Docker Compose to run the frontend, backend, and MongoDB services.
 
